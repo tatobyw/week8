@@ -1,0 +1,11 @@
+.message, .warning {
+  font-size: 2em;
+  border: 1px solid black; }
+
+.warning {
+  background-color: blueviolet; }
+
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=inheritance.css.map */

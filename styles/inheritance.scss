@@ -1,0 +1,13 @@
+.message{
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+.warning{
+    @extend .message;
+    background-color: blueviolet;
+}
+.error{
+    @extend .error;
+    background-color: red;
+}

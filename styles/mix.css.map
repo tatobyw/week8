@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,KAAK,EAAE,SAAS;EAChB,gBAAgB,EAAE,SAAS;;ACF/B,MAAM;EACF,KAAK,EAAE,MAAM;EACb,gBAAgB,EAAE,aAAa;;ACCnC,IAAI;EACA,gBAAgB,EAAE,SAAS",
+"sources": ["_header.scss","_footer.scss","mix.scss"],
+"names": [],
+"file": "mix.css"
+}
