@@ -1,0 +1,19 @@
+@mixin red-velvet-border($border-radius: 20px) {
+    border: 2px dotted red;
+    border-radius: $border-radius;
+    padding: 10px;
+}
+
+body {
+    main {
+        p {
+            @include red-velvet-border;
+            background-color: aquamarine;
+        }
+    }
+
+    footer {
+        @include red-velvet-border(5px);
+        background-color: greenyellow;
+    }
+}
