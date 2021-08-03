@@ -1,15 +1,29 @@
-$them-color: (
-    primary: #005dc2,
-    secondary: #b2ffff,
-    accent: red,
-);
-
 body{
-    background-color: map-get($them-color, primary);
-    color: map-get($them-color, secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 
-    input{
-        color: map-get($them-color,accent);
+    nav{
+        font-size: 2em;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px 0;
+    
+    .Home{
+        background-color: yellow;
+    }
+    .services{
+        background-color: greenyellow;
+    }
+    .about-us{
+        background-color: powderblue;
+    }
+    .contact{
+        background-color: purple;
+    }
+    main{
+        h1{
+            font-size: 1.5em;
+            }
+        } 
     }
 }
-    

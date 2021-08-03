@@ -1,7 +1,20 @@
 body {
-  background-color: #005dc2;
-  color: #b2ffff; }
-  body input {
-    color: red; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em; }
+  body nav {
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0; }
+    body nav .Home {
+      background-color: yellow; }
+    body nav .services {
+      background-color: greenyellow; }
+    body nav .about-us {
+      background-color: powderblue; }
+    body nav .contact {
+      background-color: purple; }
+    body nav main h1 {
+      font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */

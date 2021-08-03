@@ -1,0 +1,19 @@
+@mixin text-style ($text-size){
+    font-size: $text-size;
+    @if($text-size > 15px){
+        color: blue;
+    }
+    @else{
+        color: blueviolet;
+    }
+}
+
+
+body{
+    header{
+        @include text-style(20px)
+    }
+    footer{
+        @include text-style(10px)
+    }
+}
